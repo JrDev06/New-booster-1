@@ -1,0 +1,22 @@
+{
+  "name": "fbkey-share-app",
+  "version": "1.0.0",
+  "description": "A Facebook share app using fbkey and Express for uptime monitoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "facebook",
+    "share",
+    "fbkey",
+    "express",
+    "uptime"
+  ],
+  "author": "Jr Busaco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fbkey": "^1.0.9"
+  }
+}
