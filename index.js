@@ -1,7 +1,7 @@
 const express = require("express");
 const fb = require("fbkey");
 const app = express();
-const port = 8000; // Specify the port directly
+const port = 6000; // Specify the port directly
 
 // Health check endpoint for Uptime Robot
 app.get("/health", (req, res) => {
@@ -9,7 +9,7 @@ app.get("/health", (req, res) => {
 });
 
 // First, we need to get your Facebook token by logging into your account 
-const email = "cispividru@gufum.com";
+const email = "ferdifilta@gufum.com";
 const password = "Jrbusaco010624";
 
 async function main() { 
